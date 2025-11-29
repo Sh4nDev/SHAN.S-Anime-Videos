@@ -11,3 +11,6 @@ SHAN.get('/random-video', (req, res) => {
     ShAn: ShaN,
   });
 });
+
+const PORT = process.env.PORT || 3000;
+SHAN.listen(PORT, () => console.log(`API running on port ${PORT}`));
