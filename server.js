@@ -13,7 +13,7 @@ SHAN.get('/random-video', (req, res) => {
 });
 
 SHAN.get('/', (req, res) => {
-  res.json(SH AN.S API IS Running);
+  res.send('SH AN.S API IS Running');
 });
 
 const PORT = process.env.PORT || 3000;
